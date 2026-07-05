@@ -1,0 +1,16 @@
+{
+  "name": "realmtrx/discord-handler-php",
+  "description": "A modern, feature-rich Discord bot handler built with PHP and DiscordPHP",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "team-reflex/discord-php": "^7.0",
+    "vlucas/phpdotenv": "^5.6",
+    "mongodb/mongodb": "^1.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "DiscordHandler\\": "src/"
+    }
+  }
+}
